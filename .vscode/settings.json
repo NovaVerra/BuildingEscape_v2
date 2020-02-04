@@ -1,0 +1,7 @@
+{
+	"files.exclude": {
+		"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/.vscode": true,
+		"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/Content": true,
+		"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/Intermediate": true
+	}
+}
