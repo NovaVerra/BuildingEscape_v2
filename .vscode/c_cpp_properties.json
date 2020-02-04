@@ -4,8 +4,9 @@
             "name": "UnrealEngine",
             "includePath": [
                 "/Users/Shared/Epic Games/UE_4.23/Engine/Source",
-                "/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/Source",
-                "/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/Source/BuildingEscape",
+                "/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/Intermediate/Build/Mac/UE4Editor/Inc/BuildingEscape",
+                "/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/Source",
+                "/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/Source/BuildingEscape",
                 "/Users/Shared/Epic Games/UE_4.23/Engine/Source/Runtime",
                 "/Users/Shared/Epic Games/UE_4.23/Engine/Source/Runtime/Core/Public",
                 "/Users/Shared/Epic Games/UE_4.23/Engine/Source/Runtime/Core",

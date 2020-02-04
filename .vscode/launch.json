@@ -5,7 +5,7 @@
 			"name": "BuildingEscape (Debug)",
 			"request": "launch",
 			"preLaunchTask": "BuildingEscape Mac Debug Build",
-			"program": "/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/Binaries/Mac/UE4-Mac-Debug.app/Contents/MacOS/UE4-Mac-Debug",
+			"program": "/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/Binaries/Mac/UE4-Mac-Debug.app/Contents/MacOS/UE4-Mac-Debug",
 			"args": [
 			],
 			"cwd": "/Users/Shared/Epic Games/UE_4.23",
@@ -15,7 +15,7 @@
 			"name": "BuildingEscape (DebugGame)",
 			"request": "launch",
 			"preLaunchTask": "BuildingEscape Mac DebugGame Build",
-			"program": "/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/Binaries/Mac/UE4-Mac-DebugGame.app/Contents/MacOS/UE4-Mac-DebugGame",
+			"program": "/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/Binaries/Mac/UE4-Mac-DebugGame.app/Contents/MacOS/UE4-Mac-DebugGame",
 			"args": [
 			],
 			"cwd": "/Users/Shared/Epic Games/UE_4.23",
@@ -25,7 +25,7 @@
 			"name": "BuildingEscape (Development)",
 			"request": "launch",
 			"preLaunchTask": "BuildingEscape Mac Development Build",
-			"program": "/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/Binaries/Mac/UE4.app/Contents/MacOS/UE4",
+			"program": "/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/Binaries/Mac/UE4.app/Contents/MacOS/UE4",
 			"args": [
 			],
 			"cwd": "/Users/Shared/Epic Games/UE_4.23",
@@ -35,7 +35,7 @@
 			"name": "BuildingEscape (Shipping)",
 			"request": "launch",
 			"preLaunchTask": "BuildingEscape Mac Shipping Build",
-			"program": "/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/Binaries/Mac/UE4-Mac-Shipping.app/Contents/MacOS/UE4-Mac-Shipping",
+			"program": "/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/Binaries/Mac/UE4-Mac-Shipping.app/Contents/MacOS/UE4-Mac-Shipping",
 			"args": [
 			],
 			"cwd": "/Users/Shared/Epic Games/UE_4.23",
@@ -45,7 +45,7 @@
 			"name": "BuildingEscape (Test)",
 			"request": "launch",
 			"preLaunchTask": "BuildingEscape Mac Test Build",
-			"program": "/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/Binaries/Mac/UE4-Mac-Test.app/Contents/MacOS/UE4-Mac-Test",
+			"program": "/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/Binaries/Mac/UE4-Mac-Test.app/Contents/MacOS/UE4-Mac-Test",
 			"args": [
 			],
 			"cwd": "/Users/Shared/Epic Games/UE_4.23",
@@ -57,7 +57,7 @@
 			"preLaunchTask": "BuildingEscapeEditor Mac Debug Build",
 			"program": "/Users/Shared/Epic Games/UE_4.23/Engine/Binaries/Mac/UE4Editor-Mac-Debug.app/Contents/MacOS/UE4Editor-Mac-Debug",
 			"args": [
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject"
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject"
 			],
 			"cwd": "/Users/Shared/Epic Games/UE_4.23",
 			"type": "lldb"
@@ -68,7 +68,7 @@
 			"preLaunchTask": "BuildingEscapeEditor Mac DebugGame Build",
 			"program": "/Users/Shared/Epic Games/UE_4.23/Engine/Binaries/Mac/UE4Editor-Mac-DebugGame.app/Contents/MacOS/UE4Editor-Mac-DebugGame",
 			"args": [
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject"
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject"
 			],
 			"cwd": "/Users/Shared/Epic Games/UE_4.23",
 			"type": "lldb"
@@ -79,7 +79,7 @@
 			"preLaunchTask": "BuildingEscapeEditor Mac Development Build",
 			"program": "/Users/Shared/Epic Games/UE_4.23/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor",
 			"args": [
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject"
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject"
 			],
 			"cwd": "/Users/Shared/Epic Games/UE_4.23",
 			"type": "lldb"
@@ -93,7 +93,7 @@
 			"args": [
 				"-projectfiles",
 				"-vscode",
-				"-project=\"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject\"",
+				"-project=\"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject\"",
 				"-game",
 				"-engine"
 			],

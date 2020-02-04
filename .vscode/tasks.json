@@ -9,7 +9,7 @@
 				"BuildingEscape",
 				"Mac",
 				"Debug",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -26,7 +26,7 @@
 				"BuildingEscape",
 				"Mac",
 				"Debug",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -46,7 +46,7 @@
 				"BuildingEscape",
 				"Mac",
 				"Debug",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex",
 				"-clean"
 			],
@@ -64,7 +64,7 @@
 				"BuildingEscape",
 				"Mac",
 				"DebugGame",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -81,7 +81,7 @@
 				"BuildingEscape",
 				"Mac",
 				"DebugGame",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -101,7 +101,7 @@
 				"BuildingEscape",
 				"Mac",
 				"DebugGame",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex",
 				"-clean"
 			],
@@ -119,7 +119,7 @@
 				"BuildingEscape",
 				"Mac",
 				"Development",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -136,7 +136,7 @@
 				"BuildingEscape",
 				"Mac",
 				"Development",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -156,7 +156,7 @@
 				"BuildingEscape",
 				"Mac",
 				"Development",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex",
 				"-clean"
 			],
@@ -174,7 +174,7 @@
 				"BuildingEscape",
 				"Mac",
 				"Shipping",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -191,7 +191,7 @@
 				"BuildingEscape",
 				"Mac",
 				"Shipping",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -211,7 +211,7 @@
 				"BuildingEscape",
 				"Mac",
 				"Shipping",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex",
 				"-clean"
 			],
@@ -229,7 +229,7 @@
 				"BuildingEscape",
 				"Mac",
 				"Test",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -246,7 +246,7 @@
 				"BuildingEscape",
 				"Mac",
 				"Test",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -266,7 +266,7 @@
 				"BuildingEscape",
 				"Mac",
 				"Test",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex",
 				"-clean"
 			],
@@ -284,7 +284,7 @@
 				"BuildingEscape",
 				"IOS",
 				"Debug",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -301,7 +301,7 @@
 				"BuildingEscape",
 				"IOS",
 				"Debug",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -321,7 +321,7 @@
 				"BuildingEscape",
 				"IOS",
 				"Debug",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex",
 				"-clean"
 			],
@@ -339,7 +339,7 @@
 				"BuildingEscape",
 				"IOS",
 				"DebugGame",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -356,7 +356,7 @@
 				"BuildingEscape",
 				"IOS",
 				"DebugGame",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -376,7 +376,7 @@
 				"BuildingEscape",
 				"IOS",
 				"DebugGame",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex",
 				"-clean"
 			],
@@ -394,7 +394,7 @@
 				"BuildingEscape",
 				"IOS",
 				"Development",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -411,7 +411,7 @@
 				"BuildingEscape",
 				"IOS",
 				"Development",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -431,7 +431,7 @@
 				"BuildingEscape",
 				"IOS",
 				"Development",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex",
 				"-clean"
 			],
@@ -449,7 +449,7 @@
 				"BuildingEscape",
 				"IOS",
 				"Shipping",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -466,7 +466,7 @@
 				"BuildingEscape",
 				"IOS",
 				"Shipping",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -486,7 +486,7 @@
 				"BuildingEscape",
 				"IOS",
 				"Shipping",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex",
 				"-clean"
 			],
@@ -504,7 +504,7 @@
 				"BuildingEscape",
 				"IOS",
 				"Test",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -521,7 +521,7 @@
 				"BuildingEscape",
 				"IOS",
 				"Test",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -541,7 +541,7 @@
 				"BuildingEscape",
 				"IOS",
 				"Test",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex",
 				"-clean"
 			],
@@ -559,7 +559,7 @@
 				"BuildingEscape",
 				"HTML5",
 				"Debug",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -576,7 +576,7 @@
 				"BuildingEscape",
 				"HTML5",
 				"Debug",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -596,7 +596,7 @@
 				"BuildingEscape",
 				"HTML5",
 				"Debug",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex",
 				"-clean"
 			],
@@ -614,7 +614,7 @@
 				"BuildingEscape",
 				"HTML5",
 				"DebugGame",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -631,7 +631,7 @@
 				"BuildingEscape",
 				"HTML5",
 				"DebugGame",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -651,7 +651,7 @@
 				"BuildingEscape",
 				"HTML5",
 				"DebugGame",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex",
 				"-clean"
 			],
@@ -669,7 +669,7 @@
 				"BuildingEscape",
 				"HTML5",
 				"Development",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -686,7 +686,7 @@
 				"BuildingEscape",
 				"HTML5",
 				"Development",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -706,7 +706,7 @@
 				"BuildingEscape",
 				"HTML5",
 				"Development",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex",
 				"-clean"
 			],
@@ -724,7 +724,7 @@
 				"BuildingEscape",
 				"HTML5",
 				"Shipping",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -741,7 +741,7 @@
 				"BuildingEscape",
 				"HTML5",
 				"Shipping",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -761,7 +761,7 @@
 				"BuildingEscape",
 				"HTML5",
 				"Shipping",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex",
 				"-clean"
 			],
@@ -779,7 +779,7 @@
 				"BuildingEscape",
 				"HTML5",
 				"Test",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -796,7 +796,7 @@
 				"BuildingEscape",
 				"HTML5",
 				"Test",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -816,7 +816,7 @@
 				"BuildingEscape",
 				"HTML5",
 				"Test",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex",
 				"-clean"
 			],
@@ -834,7 +834,7 @@
 				"BuildingEscapeEditor",
 				"Mac",
 				"Debug",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -851,7 +851,7 @@
 				"BuildingEscapeEditor",
 				"Mac",
 				"Debug",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -871,7 +871,7 @@
 				"BuildingEscapeEditor",
 				"Mac",
 				"Debug",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex",
 				"-clean"
 			],
@@ -889,7 +889,7 @@
 				"BuildingEscapeEditor",
 				"Mac",
 				"DebugGame",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -906,7 +906,7 @@
 				"BuildingEscapeEditor",
 				"Mac",
 				"DebugGame",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -926,7 +926,7 @@
 				"BuildingEscapeEditor",
 				"Mac",
 				"DebugGame",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex",
 				"-clean"
 			],
@@ -944,7 +944,7 @@
 				"BuildingEscapeEditor",
 				"Mac",
 				"Development",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -961,7 +961,7 @@
 				"BuildingEscapeEditor",
 				"Mac",
 				"Development",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -981,7 +981,7 @@
 				"BuildingEscapeEditor",
 				"Mac",
 				"Development",
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape/BuildingEscape.uproject",
+				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject",
 				"-waitmutex",
 				"-clean"
 			],
