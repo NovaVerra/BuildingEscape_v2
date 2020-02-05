@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
 #include "WorldPosition.h"
+#include "GameFramework/Actor.h"
 
 // Sets default values for this component's properties
 UWorldPosition::UWorldPosition()
@@ -13,17 +13,27 @@ UWorldPosition::UWorldPosition()
 	// ...
 }
 
-
 // Called when the game starts
 void UWorldPosition::BeginPlay()
 {
 	Super::BeginPlay();
 
-	UE_LOG(LogTemp, Display, TEXT("THIS IS JUST A MESSAGE!!!"));
-	UE_LOG(LogTemp, Warning, TEXT("THIS IS A WARNING!!!"));
-	UE_LOG(LogTemp, Error, TEXT("THIS IS AN ERROR!!!"));
-}
+	// UE_LOG(LogTemp, Display, TEXT("THIS IS JUST A MESSAGE!!!"));
+	// UE_LOG(LogTemp, Warning, TEXT("THIS IS A WARNING!!!"));
+	// UE_LOG(LogTemp, Error, TEXT("THIS IS AN ERROR!!!"));
 
+	// FString	Log {TEXT("Hello!")};
+	// FString	*PtrLog {&Log};
+
+	// Log.Len();
+	// PtrLog->Len();
+
+	// UE_LOG(LogTemp, Warning, TEXT("Print FString - %s"), *Log);
+	// UE_LOG(LogTemp, Warning, TEXT("Print FSring Pointer - %s"), **PtrLog);
+
+	FString	ObjectName {GetOwner()->GetName()};
+	UE_LOG(LogTemp, Warning, TEXT("Object Name is: %s"), *ObjectName);
+}
 
 // Called every frame
 void UWorldPosition::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
@@ -32,4 +42,3 @@ void UWorldPosition::TickComponent(float DeltaTime, ELevelTick TickType, FActorC
 
 	// ...
 }
-
