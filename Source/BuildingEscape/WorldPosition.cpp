@@ -32,7 +32,8 @@ void UWorldPosition::BeginPlay()
 	// UE_LOG(LogTemp, Warning, TEXT("Print FSring Pointer - %s"), **PtrLog);
 
 	FString	ObjectName {GetOwner()->GetName()};
-	UE_LOG(LogTemp, Warning, TEXT("Object Name is: %s"), *ObjectName);
+	FString	ObjectPosition {GetOwner()->GetActorLocation().ToString()};
+	UE_LOG(LogTemp, Warning, TEXT("%s: %s"), *ObjectName, *ObjectPosition);
 }
 
 // Called every frame
