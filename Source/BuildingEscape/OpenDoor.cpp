@@ -1,6 +1,5 @@
 // All Rights Reserved Leo Lee 2020
 
-
 #include "OpenDoor.h"
 #include "GameFramework/Actor.h"
 
@@ -14,25 +13,25 @@ UOpenDoor::UOpenDoor()
 	// ...
 }
 
-
 // Called when the game starts
 void UOpenDoor::BeginPlay()
 {
 	Super::BeginPlay();
-
-	float		OpenDoorAngle {90.f};
-
-	FRotator	CurrentRotation {GetOwner()->GetActorRotation()};
-	FRotator	UpdatedRotation {CurrentRotation.Pitch, CurrentRotation.Yaw -= OpenDoorAngle, CurrentRotation.Roll};
-	GetOwner()->SetActorRotation(UpdatedRotation);
+	OpenDoorAngle = 90.f;
+	TargetYaw = GetOwner()->GetActorRotation().Yaw + OpenDoorAngle;
 }
-
 
 // Called every frame
 void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	// ...
-}
+	FRotator	CurrentRotation {GetOwner()->GetActorRotation()};
+	FRotator	TargetRotation {CurrentRotation.Pitch, TargetYaw, CurrentRotation.Roll};
+	
+	UE_LOG(LogTemp, Warning, TEXT("%s"), *CurrentRotation.ToString());
+	UE_LOG(LogTemp, Warning, TEXT("Yaw is: %f"), GetOwner()->GetActorRotation().Yaw);
 
+	TargetRotation.Yaw = FMath::Lerp(CurrentRotation.Yaw, TargetYaw, 0.02f);
+	GetOwner()->SetActorRotation(TargetRotation);
+}
