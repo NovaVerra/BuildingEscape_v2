@@ -20,6 +20,12 @@ void UOpenDoor::BeginPlay()
 	InitialYaw = GetOwner()->GetActorRotation().Yaw;
 	CurrentYaw = InitialYaw;
 	TargetYaw += InitialYaw;
+
+	if (!PressurePlate)
+	{
+		UE_LOG(LogTemp, Error, TEXT("%s has the OpenDoor component on it, but no PressurePlate is set - nullptr undefined error"),
+		*GetOwner()->GetName())
+	}
 }
 
 // Called every frame
@@ -27,8 +33,9 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	if (PressurePlate->IsOverlappingActor(ActorThatOpensDoor))
+	if (PressurePlate && PressurePlate->IsOverlappingActor(ActorThatOpensDoor))
 		OpenDoor(DeltaTime);
+	
 }
 
 void UOpenDoor::OpenDoor(float DeltaTime)

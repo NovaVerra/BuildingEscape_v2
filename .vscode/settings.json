@@ -1,9 +1,9 @@
 {
 	"files.exclude": {
-		"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/.git": true,
-		"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/.vscode": true,
-		"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/Content": true,
-		"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/Intermediate": true,
-		"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/Saved": true
+		"E:/GameDevelopment/UnrealEngine4/BuildingEscape_V2/.git": true,
+		"E:/GameDevelopment/UnrealEngine4/BuildingEscape_V2/.vscode": true,
+		"E:/GameDevelopment/UnrealEngine4/BuildingEscape_V2/Content": true,
+		"E:/GameDevelopment/UnrealEngine4/BuildingEscape_V2/Intermediate": true,
+		"E:/GameDevelopment/UnrealEngine4/BuildingEscape_V2/Saved": true
 	}
 }

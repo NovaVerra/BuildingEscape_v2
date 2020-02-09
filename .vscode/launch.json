@@ -4,101 +4,125 @@
 		{
 			"name": "BuildingEscape (Debug)",
 			"request": "launch",
-			"preLaunchTask": "BuildingEscape Mac Debug Build",
-			"program": "/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/Binaries/Mac/UE4-Mac-Debug.app/Contents/MacOS/UE4-Mac-Debug",
+			"preLaunchTask": "BuildingEscape Win64 Debug Build",
+			"program": "E:\\GameDevelopment\\UnrealEngine4\\BuildingEscape_V2\\Binaries\\Win64\\UE4-Win64-Debug.exe",
 			"args": [
 			],
-			"cwd": "/Users/Shared/Epic Games/UE_4.23",
-			"type": "lldb"
+			"cwd": "D:\\Unreal Engine 4\\Epic Games\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Unreal Engine 4\\Epic Games\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "BuildingEscape (DebugGame)",
 			"request": "launch",
-			"preLaunchTask": "BuildingEscape Mac DebugGame Build",
-			"program": "/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/Binaries/Mac/UE4-Mac-DebugGame.app/Contents/MacOS/UE4-Mac-DebugGame",
+			"preLaunchTask": "BuildingEscape Win64 DebugGame Build",
+			"program": "E:\\GameDevelopment\\UnrealEngine4\\BuildingEscape_V2\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
 			"args": [
 			],
-			"cwd": "/Users/Shared/Epic Games/UE_4.23",
-			"type": "lldb"
+			"cwd": "D:\\Unreal Engine 4\\Epic Games\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Unreal Engine 4\\Epic Games\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "BuildingEscape (Development)",
 			"request": "launch",
-			"preLaunchTask": "BuildingEscape Mac Development Build",
-			"program": "/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/Binaries/Mac/UE4.app/Contents/MacOS/UE4",
+			"preLaunchTask": "BuildingEscape Win64 Development Build",
+			"program": "E:\\GameDevelopment\\UnrealEngine4\\BuildingEscape_V2\\Binaries\\Win64\\UE4.exe",
 			"args": [
 			],
-			"cwd": "/Users/Shared/Epic Games/UE_4.23",
-			"type": "lldb"
+			"cwd": "D:\\Unreal Engine 4\\Epic Games\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Unreal Engine 4\\Epic Games\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "BuildingEscape (Shipping)",
 			"request": "launch",
-			"preLaunchTask": "BuildingEscape Mac Shipping Build",
-			"program": "/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/Binaries/Mac/UE4-Mac-Shipping.app/Contents/MacOS/UE4-Mac-Shipping",
+			"preLaunchTask": "BuildingEscape Win64 Shipping Build",
+			"program": "E:\\GameDevelopment\\UnrealEngine4\\BuildingEscape_V2\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
 			"args": [
 			],
-			"cwd": "/Users/Shared/Epic Games/UE_4.23",
-			"type": "lldb"
+			"cwd": "D:\\Unreal Engine 4\\Epic Games\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Unreal Engine 4\\Epic Games\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "BuildingEscape (Test)",
 			"request": "launch",
-			"preLaunchTask": "BuildingEscape Mac Test Build",
-			"program": "/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/Binaries/Mac/UE4-Mac-Test.app/Contents/MacOS/UE4-Mac-Test",
+			"preLaunchTask": "BuildingEscape Win64 Test Build",
+			"program": "E:\\GameDevelopment\\UnrealEngine4\\BuildingEscape_V2\\Binaries\\Win64\\UE4-Win64-Test.exe",
 			"args": [
 			],
-			"cwd": "/Users/Shared/Epic Games/UE_4.23",
-			"type": "lldb"
+			"cwd": "D:\\Unreal Engine 4\\Epic Games\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Unreal Engine 4\\Epic Games\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "BuildingEscapeEditor (Debug)",
 			"request": "launch",
-			"preLaunchTask": "BuildingEscapeEditor Mac Debug Build",
-			"program": "/Users/Shared/Epic Games/UE_4.23/Engine/Binaries/Mac/UE4Editor-Mac-Debug.app/Contents/MacOS/UE4Editor-Mac-Debug",
+			"preLaunchTask": "BuildingEscapeEditor Win64 Debug Build",
+			"program": "D:\\Unreal Engine 4\\Epic Games\\UE_4.23\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
 			"args": [
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject"
+				"E:\\GameDevelopment\\UnrealEngine4\\BuildingEscape_V2\\BuildingEscape.uproject"
 			],
-			"cwd": "/Users/Shared/Epic Games/UE_4.23",
-			"type": "lldb"
+			"cwd": "D:\\Unreal Engine 4\\Epic Games\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Unreal Engine 4\\Epic Games\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "BuildingEscapeEditor (DebugGame)",
 			"request": "launch",
-			"preLaunchTask": "BuildingEscapeEditor Mac DebugGame Build",
-			"program": "/Users/Shared/Epic Games/UE_4.23/Engine/Binaries/Mac/UE4Editor-Mac-DebugGame.app/Contents/MacOS/UE4Editor-Mac-DebugGame",
+			"preLaunchTask": "BuildingEscapeEditor Win64 DebugGame Build",
+			"program": "D:\\Unreal Engine 4\\Epic Games\\UE_4.23\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
 			"args": [
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject"
+				"E:\\GameDevelopment\\UnrealEngine4\\BuildingEscape_V2\\BuildingEscape.uproject"
 			],
-			"cwd": "/Users/Shared/Epic Games/UE_4.23",
-			"type": "lldb"
+			"cwd": "D:\\Unreal Engine 4\\Epic Games\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Unreal Engine 4\\Epic Games\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "BuildingEscapeEditor (Development)",
 			"request": "launch",
-			"preLaunchTask": "BuildingEscapeEditor Mac Development Build",
-			"program": "/Users/Shared/Epic Games/UE_4.23/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor",
+			"preLaunchTask": "BuildingEscapeEditor Win64 Development Build",
+			"program": "D:\\Unreal Engine 4\\Epic Games\\UE_4.23\\Engine\\Binaries\\Win64\\UE4Editor.exe",
 			"args": [
-				"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject"
+				"E:\\GameDevelopment\\UnrealEngine4\\BuildingEscape_V2\\BuildingEscape.uproject"
 			],
-			"cwd": "/Users/Shared/Epic Games/UE_4.23",
-			"type": "lldb"
+			"cwd": "D:\\Unreal Engine 4\\Epic Games\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Unreal Engine 4\\Epic Games\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "Generate Project Files",
-			"type": "mono",
+			"type": "clr",
 			"request": "launch",
-			"program": "/Users/Shared/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe",
-			"console": "internalConsole",
+			"program": "D:\\Unreal Engine 4\\Epic Games\\UE_4.23\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
 			"args": [
 				"-projectfiles",
 				"-vscode",
-				"-project=\"/Users/lununglee/Documents/GameDevelopment/UnrealEngine4/BuildingEscape_V2/BuildingEscape.uproject\"",
+				"-project=\"E:\\GameDevelopment\\UnrealEngine4\\BuildingEscape_V2\\BuildingEscape.uproject\"",
 				"-game",
 				"-engine"
 			],
 			"internalConsoleOptions": "openOnSessionStart",
-			"cwd": "/Users/Shared/Epic Games/UE_4.23"
+			"cwd": "D:\\Unreal Engine 4\\Epic Games\\UE_4.23"
 		}
 	]
 }
