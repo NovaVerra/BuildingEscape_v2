@@ -35,7 +35,7 @@ private:
 	float			OpenAngle {90.f};
 	
 	UPROPERTY(EditAnywhere)
-	float			DoorCloseDelay {0.5f};
+	float			DoorCloseDelay {0.2f};
 	
 	float			DoorLastOpened {0.f};
 
@@ -43,7 +43,7 @@ private:
 	float			DoorOpenVelocity {2.f};
 
 	UPROPERTY(EditAnywhere)
-	float			DoorCloseVelocity {0.5f};
+	float			DoorCloseVelocity {2.5f};
 	
 	UPROPERTY(EditAnywhere)
 	AActor			*ActorThatOpensDoor {};
