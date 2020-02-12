@@ -1,7 +1,8 @@
 // All Rights Reserved Leo Lee 2020
 
-#include "Grabber.h"
+#include "DrawDebugHelpers.h"
 #include "Engine/World.h"
+#include "Grabber.h"
 #include "GameFramework/PlayerController.h"
 
 #define OUT
@@ -39,9 +40,23 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 	);
 
 	// Log both location and direction
-	UE_LOG(LogTemp, Warning, TEXT("Location: %s"), *PlayerViewPointLocation.ToString());
-	UE_LOG(LogTemp, Warning, TEXT("Direction: %s"), *PlayerViewPointDirection.ToString());
+	// UE_LOG(LogTemp, Warning, TEXT("Location: %s"), *PlayerViewPointLocation.ToString());
+	// UE_LOG(LogTemp, Warning, TEXT("Direction: %s"), *PlayerViewPointDirection.ToString());
 
+	// Draw a line signifying player's POV
+
+	FVector	LineTraceEnd {PlayerViewPointLocation + PlayerViewPointDirection.Vector() * Reach};
+
+	DrawDebugLine(
+		GetWorld(),
+		PlayerViewPointLocation,
+		LineTraceEnd,
+		FColor(0, 255, 0),
+		false,
+		0.f,
+		0,
+		5
+	);
 	// Ray-cast out to a certain distance
 
 	// What are we hitting?
