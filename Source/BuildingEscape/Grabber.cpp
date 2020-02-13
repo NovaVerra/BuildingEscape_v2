@@ -22,7 +22,12 @@ void UGrabber::BeginPlay()
 {
 	Super::BeginPlay();
 
-	UE_LOG(LogTemp, Warning, TEXT("Grabber is here"));
+	// Check PhysicsHandleComponent
+	PhysicsHandle = GetOwner()->FindComponentByClass<UPhysicsHandleComponent>();
+	if (!PhysicsHandle)
+	{
+		UE_LOG(LogTemp, Error, TEXT("%s: PhysicsHandleComponent not found!"), *GetOwner()->GetName());
+	}
 }
 
 // Called every frame
@@ -54,9 +59,10 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 		5
 	);
 
+	// Ray-cast out to a certain distance
 	FHitResult				Hit {};
 	FCollisionQueryParams	TraceParams(FName(TEXT("")), false, GetOwner());
-	// Ray-cast out to a certain distance
+
 	GetWorld()->LineTraceSingleByObjectType(
 		OUT Hit,
 		PlayerViewPointLocation,
