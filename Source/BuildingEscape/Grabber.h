@@ -26,7 +26,9 @@ public:
 	void					FindPhysicsHandle();
 	void					SetupInputHandle();
 	void					GetPlayerViewPoint();
-	FHitResult				GetFirstPhysicsBodyInReach();
+	FHitResult				GetFirstPhysicsBodyInReach() const;
+	FVector					GetPlayerReach() const;
+	FVector					GetPlayerPosition() const;
 
 protected:
 	// Called when the game starts
