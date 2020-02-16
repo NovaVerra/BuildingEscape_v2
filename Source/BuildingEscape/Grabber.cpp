@@ -13,16 +13,28 @@ UGrabber::UGrabber()
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
-
-	// ...
 }
 
 // Called when the game starts
-void UGrabber::BeginPlay()
+void		UGrabber::BeginPlay()
 {
 	Super::BeginPlay();
 
-	// Check PhysicsHandleComponent
+	FindPhysicsHandle();
+	SetupInputHandle();
+}
+
+// Called every frame
+void		UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
+{
+	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
+
+	// if physics handle is attached
+		// move object we are holding
+}
+
+void		UGrabber::FindPhysicsHandle()
+{
 	PhysicsHandle = GetOwner()->FindComponentByClass<UPhysicsHandleComponent>();
 	if (!PhysicsHandle)
 	{
@@ -32,7 +44,10 @@ void UGrabber::BeginPlay()
 	{
 		; // PhysicsHandle found!
 	}
+}
 
+void		UGrabber::SetupInputHandle()
+{
 	// Check InputComponent
 	InputHandle = GetOwner()->FindComponentByClass<UInputComponent>();
 	if (!InputHandle)
@@ -46,21 +61,25 @@ void UGrabber::BeginPlay()
 	}
 }
 
-void UGrabber::Grab()
+void		UGrabber::Grab()
 {
 	UE_LOG(LogTemp, Warning, TEXT("Grabber pressed"));
+
+	// only raycast when key is pressed
+	GetFirstPhysicsBodyInReach();
+	// Try and reach any actors with phsyics body collision channel set
+
+	// If we hit something, then attach the physics handle
+	// TODO attach physics handle
 }
 
-void UGrabber::Release()
+void		UGrabber::Release()
 {
 	UE_LOG(LogTemp, Warning, TEXT("Grabber released"));
 }
 
-// Called every frame
-void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
+FHitResult	UGrabber::GetFirstPhysicsBodyInReach()
 {
-	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-
 	FVector		PlayerViewPointLocation {};
 	FRotator	PlayerViewPointDirection {};
 
@@ -71,19 +90,7 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 	);
 
 	// Draw a line signifying player's POV
-
 	FVector	LineTraceEnd {PlayerViewPointLocation + PlayerViewPointDirection.Vector() * Reach};
-
-	DrawDebugLine(
-		GetWorld(),
-		PlayerViewPointLocation,
-		LineTraceEnd,
-		FColor(0, 255, 0),
-		false,
-		0.f,
-		0,
-		5
-	);
 
 	// Ray-cast out to a certain distance
 	FHitResult				Hit {};
@@ -118,4 +125,6 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 	// {
 	// 	;
 	// }
+
+	return Hit;
 }
