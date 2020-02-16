@@ -28,6 +28,10 @@ void UGrabber::BeginPlay()
 	{
 		UE_LOG(LogTemp, Error, TEXT("%s: PhysicsHandleComponent NOT found!"), *GetOwner()->GetName());
 	}
+	else
+	{
+		; // PhysicsHandle found!
+	}
 
 	// Check InputComponent
 	InputHandle = GetOwner()->FindComponentByClass<UInputComponent>();
@@ -38,12 +42,18 @@ void UGrabber::BeginPlay()
 	else
 	{
 		InputHandle->BindAction("Interact", IE_Pressed, this, &UGrabber::Grab);
+		InputHandle->BindAction("Interact", IE_Released, this, &UGrabber::Release);
 	}
 }
 
 void UGrabber::Grab()
 {
 	UE_LOG(LogTemp, Warning, TEXT("Grabber pressed"));
+}
+
+void UGrabber::Release()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Grabber released"));
 }
 
 // Called every frame
