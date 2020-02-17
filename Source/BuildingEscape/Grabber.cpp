@@ -28,7 +28,7 @@ void		UGrabber::BeginPlay()
 void		UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-
+	if (!PhysicsHandle) { return; }
 	if (PhysicsHandle->GrabbedComponent)
 	{
 		PhysicsHandle->SetTargetLocation(GetPlayerReach());
@@ -69,9 +69,10 @@ void		UGrabber::Grab()
 
 	FHitResult			HitResult {GetFirstPhysicsBodyInReach()};
 	UPrimitiveComponent	*ComponentToGrab {HitResult.GetComponent()};
-
-	if (HitResult.GetActor())
+	AActor				*ActorHit {HitResult.GetActor()};
+	if (ActorHit)
 	{
+		if (!PhysicsHandle) { return; }
 		PhysicsHandle->GrabComponentAtLocation
 		(
 			ComponentToGrab,
@@ -84,26 +85,18 @@ void		UGrabber::Grab()
 void		UGrabber::Release()
 {
 	UE_LOG(LogTemp, Warning, TEXT("Grabber released"));
+	if (!PhysicsHandle) { return; }
 	PhysicsHandle->ReleaseComponent();
 }
 
 FHitResult	UGrabber::GetFirstPhysicsBodyInReach() const
 {
-	FVector		PlayerViewPointLocation {};
-	FRotator	PlayerViewPointDirection {};
-
-	// Get Player's viewpoint
-	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(
-		OUT	PlayerViewPointLocation,
-		OUT	PlayerViewPointDirection
-	);
-	FVector	LineTraceEnd {GetPlayerReach()};
-
 	// Ray-cast out to a certain distance
 	FHitResult				Hit {};
 	FCollisionQueryParams	TraceParams(FName(TEXT("")), false, GetOwner());
 
-	GetWorld()->LineTraceSingleByObjectType(
+	GetWorld()->LineTraceSingleByObjectType
+	(
 		OUT Hit,
 		GetPlayerPosition(),
 		GetPlayerReach(),
@@ -116,11 +109,6 @@ FHitResult	UGrabber::GetFirstPhysicsBodyInReach() const
 	{
 		UE_LOG(LogTemp, Warning, TEXT("%s"), *Hit.Actor->GetName());
 	}
-	else
-	{
-		;
-	}
-
 	// What are we hitting? Alternative approach
 	// AActor					*ActorHit = Hit.GetActor();
 
